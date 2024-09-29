@@ -1,0 +1,18 @@
+body{
+    background-color: darkslategray;
+    text-align: center;
+    color: gray;
+    font-family: monospace;
+}
+a{
+    color: cyan;
+    text-decoration: none;
+}
+a:hover{
+    color: darkslategray;
+    text-decoration: line;
+}
+.picture {
+    width: 40%;
+    height: auto;
+}
