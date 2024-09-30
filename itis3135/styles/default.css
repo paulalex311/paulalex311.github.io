@@ -108,3 +108,34 @@ footer a{
 footer a:hover{
     color: acebeb;
 }
+.mascot-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+}
+.mascot-photo{
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 150px;
+}
+.mascot-info {
+    max-width: 400px;
+    background-color: #3e6565;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.mascot-info h3 {
+    color: #acebeb;
+    margin-bottom: 15px;
+}
+.mascot-info p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff;
+}
