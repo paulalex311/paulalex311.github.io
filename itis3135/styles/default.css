@@ -1,18 +1,110 @@
 body{
-    background-color: darkslategray;
+    font-family: Arial, sans-serif;
+    background-color: #2e4d4d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header {
     text-align: center;
-    color: gray;
-    font-family: monospace;
+    padding: 20px;
+    background-color: #3e6565;
 }
-a{
-    color: cyan;
+header h1{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #acebeb;
+}
+header nav a {
+    color: #c4f1f9;
     text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
 }
-a:hover{
-    color: darkslategray;
-    text-decoration: line;
+header nav a:hover {
+    color: #acebeb;
 }
-.picture {
-    width: 40%;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.title-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title-section h1 {
+    font-size: 2.5rem;
+    color: #acebeb;
+}
+.title-section p {
+    font-size: 1.2rem;
+    color: #c4f1f9;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.photo-section {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.profile-photo {
+    width: 300px;
     height: auto;
+    border-radius: 15px;
+    border: 3px solid #ccc;
+}
+.info-section {
+    flex: 2;
+    margin-left: 40px;
+    padding: 20px;
+    background-color: #3e6565;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+.info-section h2 {
+    color: #acebeb;
+    margin-bottom: 15px;
+}
+.info-section p, ul {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.info-section ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.info-section strong {
+    color: #acebeb;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3e6565;
+    border-top: 2px solid #acebeb;
+}
+footer nav a{
+    color: #c4f1f9;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer nav a:hover{
+    color: #acebeb;
+}
+footer p{
+    margin-top: 10px;
+    color: #acebeb;
+}
+footer a{
+    text-decoration: none;
+    color: c4f1f9;
+}
+footer a:hover{
+    color: acebeb;
 }
