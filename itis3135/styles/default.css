@@ -139,3 +139,13 @@ footer a:hover{
     margin-bottom: 20px;
     color: #fff;
 }
+figure {
+    text-align: center;
+    margin: 0;
+}
+figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #c4f1f9;
+    font-style: italic;
+}
