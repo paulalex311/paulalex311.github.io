@@ -10,11 +10,6 @@ header {
     padding: 20px;
     background-color: #3e6565;
 }
-header h1{
-    margin-bottom: 10px;
-    font-size: 2rem;
-    color: #acebeb;
-}
 header nav a {
     color: #c4f1f9;
     text-decoration: none;
@@ -32,10 +27,6 @@ header nav a:hover {
 .title-section {
     text-align: center;
     margin-bottom: 40px;
-}
-.title-section h1 {
-    font-size: 2.5rem;
-    color: #acebeb;
 }
 .title-section p {
     font-size: 1.2rem;
@@ -58,7 +49,6 @@ header nav a:hover {
     width: 300px;
     height: auto;
     border-radius: 15px;
-    border: 3px solid #ccc;
 }
 .info-section {
     flex: 2;
@@ -67,10 +57,6 @@ header nav a:hover {
     background-color: #3e6565;
     border-radius: 10px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-}
-.info-section h2 {
-    color: #acebeb;
-    margin-bottom: 15px;
 }
 .info-section p, ul {
     line-height: 1.6;
@@ -129,10 +115,6 @@ footer a:hover{
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
     margin-left: 50px;
-}
-.mascot-info h3 {
-    color: #acebeb;
-    margin-bottom: 15px;
 }
 .mascot-info p {
     line-height: 1.6;
