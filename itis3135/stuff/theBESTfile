@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>The BEST page!.html</title>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: "Comic Sans MS", "Papyrus", Times, serif;
@@ -35,33 +36,35 @@
 
 <body>
     <h2>My BEST Webpage</h2>
+    <img src="1868177.jpg" alt="crazy trash panda" height="400" width="400">
     <p style="font-size: 40px; margin: 50px 10px 0 20px; color: #000;">Welcome to the best webpage on the internet!
         Enjoy it while it lasts!</p>
-    <center>
-        <ul>
-            <li>Item One</li>
-            <li>Item Two</li>
-            <li>Item Three</li>
-        </ul>
-    </center>
-<img src="C:/junkfolder/REALLY-CRAZY-PICTURE" alt="the best image ever" width="400" height="400">
-<p class="caption">Why is this like that?</p>
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <p class="caption">Why is this like that?</p>
 
-<h1>About my bestEST page</h1>
+    <h1>About my bestEST page</h1>
 
-<p style="text-align: center; font-size: 24px;">This is a centered paragraph with <span style="background-color: yellow;">terrible</span> design choices</p>
-<p style="text-align: center; font-size: 18px; text-decoration: underline;">This is an underlined, but not a link</p>
+    <p style="text-align: center; font-size: 24px;">This is a centered paragraph with <span
+            style="background-color: yellow;">terrible</span> design choices</p>
+    <p style="text-align: center; font-size: 18px; text-decoration: underline;">This is an underlined, but not a link
+    </p>
 
-<div class="bad-border" style="padding: 20px;">
-    This is a section with a massive border with different styles on each side
-</div>
-<p>
-    <br><br><br><br><br>
-    Thus has too many blank lines.
-</p>
-<p style="font-family: 'Comic Sans MS'; font-size: 36px;">Look at this really cool font!</p>
+    <div class="bad-border" style="padding: 20px;">
+        This is a section with a massive border with different styles on each side
+    </div>
+    <p>
+        <br><br><br><br><br>
+        Thus has too many blank lines.
+    </p>
+    <p style="font-family: 'Comic Sans MS'; font-size: 36px;">Look at this really cool font!</p>
 
-<br><br><br>
+    <br><br><br>
 </body>
-
+<footer>
+    Click <a href="https://webpages.charlotte.edu/palex/itis3135/">here</a> to return back home. 
+</footer>
 </html>
