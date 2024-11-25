@@ -24,13 +24,8 @@ header nav a:hover {
     margin: 0 auto;
     padding: 20px;
 }
-.title-section {
+h1, h2, p {
     text-align: center;
-    margin-bottom: 40px;
-}
-.title-section p {
-    font-size: 1.2rem;
-    color: #c4f1f9;
 }
 .content {
     display: flex;
@@ -130,4 +125,49 @@ figcaption {
     font-size: 0.9rem;
     color: #c4f1f9;
     font-style: italic;
+}
+a {
+    color: rgba(70, 201, 224, 0.808);
+}
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+legend {
+    color: black;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+input[type="text"], input[type="email"], input[type="tel"], select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
 }
