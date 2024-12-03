@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project-styles.css">
+    <title>Contact - Wheat Auto Works</title>
+</head>
+<body>
+    <header>
+        <div data-include="wheatcomponents/header.html"></div>
+    </header>
+    <main>
+        <section class="contact-content">
+            <h2>Contact Form - Wheat Auto Works</h2>
+
+            <form>
+                <label for="form-name">Name:</label>
+                <input type="text" id="form-name" name="form-name" placeholder="Enter your full name" required>
+                <br><br>
+    
+                <label for="form-email">Email:</label>
+                <input type="email" id="form-email" name="form-email" placeholder="Enter your email address" required>
+                <br><br>
+    
+                <label for="form-number">Phone Number:</label>
+                <input type="tel" id="form-number" name="form-number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format: 123-456-7890">
+                <br><br>
+    
+                <fieldset>
+                    <legend>What services would you be interested in?</legend>
+                    <label><input type="checkbox" id="repair" name="job-type" value="repair"> Repair</label>
+                    <label><input type="checkbox" id="maintenance" name="job-type" value="maintenance"> Maintenance</label>
+                    <label><input type="checkbox" id="diagnostic" name="job-type" value="diagnostic"> Diagnostic</label>
+                </fieldset>
+                <br>
+    
+    
+                <fieldset>
+                    <legend>Are you interested in receiving updates and upcoming news from Wheat Auto Works?</legend>
+                    <label><input type="radio" id="yes" name="update" value="yes" checked> Yes</label>
+                    <label><input type="radio" id="no" name="update" value="no"> No</label>
+                </fieldset>
+                <br>
+    
+    
+                <label for="dropdown">What platform are you inquiring about?</label>
+                <select name="dropdown" id="dropdown" required>
+                    <option value="" disabled selected>Select your platform</option>
+                    <option value="automotive">Automotive</option>
+                    <option value="motorcycle">Motorcycle</option>
+                    <option value="marine">Marine</option>
+                    <option value="offroad">Off-Road</option>
+                    <option value="smallengines">Small Engines</option>
+                </select>
+                <br><br>
+    
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+    
+    
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div data-include="wheatcomponents/footer.html"></div>
+    </footer>
+    <script src="HTMLInclude.min.js"></script>
+</body>
+</html>
