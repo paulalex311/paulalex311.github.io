@@ -1,28 +1,13 @@
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li,
-form,
-input,
-textarea,
-button {
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-}
-
-h1,
-h2,
-p {
-    text-align: center;
 }
 
 header {
@@ -41,7 +26,6 @@ header {
     color: #fff;
     text-decoration: none;
 }
-
 .main {
     padding: 2rem;
 }
@@ -49,7 +33,6 @@ header {
 footer {
     background: #333;
     color: #fff;
-    text-align: center;
     padding: 1rem;
 }
 
@@ -76,6 +59,7 @@ footer {
     background: blue;
     margin: 50px auto;
 }
+
 /* laptops */
 @media screen and (min-width: 981px) and (max-width: 1400px) {
     #colorbox {
@@ -147,7 +131,6 @@ button:hover {
 }
 
 img {
-    display: block;
     margin: 20px auto;
     padding: 10px;
     max-width: 90%;
@@ -164,11 +147,6 @@ ol {
     border-radius: 5px;
     list-style-position: inside;
 }
-
-h3 {
-    text-align: center;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -192,6 +170,7 @@ figcaption {
     font-size: 0.9rem;
     font-style: italic;
 }
+
 #scrollTopBtn {
     position: fixed;
     bottom: 20px;

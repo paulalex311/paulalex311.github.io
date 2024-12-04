@@ -1,4 +1,4 @@
-const scrollTopBtn = document.getElementById('scrollTopBtn');
+const scrollTopBtn = document.getElementById('scroll-top-btn');
 
 // Show button when user scrolls down 20px from the top
 window.onscroll = function() {

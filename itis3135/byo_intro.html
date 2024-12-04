@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Paul Alex's ITIS 3135 Site</title>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2>BYO Intro</h2>
+        <h3>Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+
+        <form id="intro-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Paul Alex" required><br><br>
+
+            <label for="mascot">Mascot:</label>
+            <input type="text" id="mascot" name="mascot" value="Alligator Performance" required><br><br>
+
+            <label for="image">Image (PNG or JPG):</label>
+            <input type="file" id="image" name="image" accept="image/png, image/jpeg" required><br><br>
+
+            <label for="image-caption">Image Caption:</label>
+            <input type="text" id="image-caption" name="image-caption" value="Your Caption" required><br><br>
+
+            <label for="personal-background">Personal Background:</label>
+            <textarea id="personal-background" name="personal-background" required>Corvette Enthusiast</textarea><br><br>
+
+            <label for="professional-background">Professional Background:</label>
+            <textarea id="professional-background" name="professional-background" required>Marine Corps Veteran</textarea><br><br>
+
+            <label for="academic-background">Academic Background:</label>
+            <textarea id="academic-background" name="academic-background" required>UNC Charlotte</textarea><br><br>
+
+            <label for="web-dev-background">Background in Web Development:</label>
+            <textarea id="web-dev-background" name="web-dev-background" required>Java, HTML/CSS/JS, Python...</textarea><br><br>
+
+            <label for="computer-platform">Primary Computer Platform:</label>
+            <input type="text" id="computer-platform" name="computer-platform" value="Windows" required><br><br>
+
+            <div id="courses">
+                <label>Courses Currently Taking:</label><br>
+                <button type="button" id="add-course-btn">Add Course</button><br><br>
+            </div>
+
+            <label for="funny-thing">Funny or Interesting Thing:</label>
+            <input type="text" id="funny-thing" name="funny-thing" value="Big Corvette Enthusiast"><br><br>
+
+            <label for="anything-else">Anything Else?</label>
+            <input type="text" id="anything-else" name="anything-else" value="Not Right Now"><br><br>
+
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.</label><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/HTMLInclude.min.js"></script>
+    <script src="scripts/survey.js"></script>
+</body>
+
+</html>

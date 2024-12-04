@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow - Paul Alex's Gallery</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/slideshow.js" defer></script>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+
+    <main>
+        <h2>Paul Alex's Slideshow</h2>
+        <div class="slideshow-container">
+
+            <div class="my-slides">
+                <img src="images/pencil.jpg" alt="Pencil for P" class="slide-image">
+                <div class="caption">P - for Pencil</div>
+            </div>
+
+            <div class="my-slides">
+                <img src="images/apple.jpg" alt="Apple for A" class="slide-image">
+                <div class="caption">A - for Apple</div>
+            </div>
+
+            <div class="my-slides">
+                <img src="images/umbrella.jpg" alt="Umbrella for U" class="slide-image">
+                <div class="caption">U - for Umbrella</div>
+            </div>
+
+            <div class="my-slides">
+                <img src="images/leaf.jpg" alt="Leaf for L" class="slide-image">
+                <div class="caption">L - for Leaf</div>
+            </div>
+
+            <div class="my-slides">
+                <img src="images/airplane.jpg" alt="Airplane for A" class="slide-image">
+                <div class="caption">A - for Airplane</div>
+            </div>
+
+            <div class="my-slides">
+                <img src="images/lion.jpg" alt="Lion for L" class="slide-image">
+                <div class="caption">L - for Lion</div>
+            </div>
+
+            <div class="my-slides">
+                <img src="images/elephant.jpg" alt="Elephant for E" class="slide-image">
+                <div class="caption">E - for Elephant</div>
+            </div>
+
+            <div class="my-slides">
+                <img src="images/xylophone.jpg" alt="Xylophone for X" class="slide-image">
+                <div class="caption">X - for Xylophone</div>
+            </div>
+
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+
+        <div class="thumbnail-container">
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+            <span class="dot" data-slide="6"></span>
+            <span class="dot" data-slide="7"></span>
+            <span class="dot" data-slide="8"></span>
+        </div>
+    </main>
+    <section>
+        <h3>Prompts Used:</h3>
+        <ul>
+            <li>P - Picture of a pencil (Generated with DALL-E)</li>
+            <li>A - Picture of an apple (Generated with DALL-E)</li>
+            <li>U - Picture of an umbrella (Generated with DALL-E)</li>
+            <li>L - Picture of a leaf (Generated with DALL-E)</li>
+            <li>A - Picture of an airplane (Generated with DALL-E)</li>
+            <li>L - Picture of a lion (Generated with DALL-E)</li>
+            <li>E - Picture of an elephant (Generated with DALL-E)</li>
+            <li>X - Picture of a xylophone (Generated with DALL-E)</li>
+        </ul>
+    </section>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>
